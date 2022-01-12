@@ -1,4 +1,4 @@
-// ignore_for_file: import_of_legacy_library_into_null_safe
+// ignore_for_file: import_of_legacy_library_into_null_safe, prefer_const_constructors
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -14,7 +14,7 @@ class HeaderScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var nameWidget = ("Faisal."
+    var nameWidget = (" Faisal."
         .text
         .white
         .xl2
@@ -41,13 +41,9 @@ class HeaderScreen extends StatelessWidget {
                   child: VStack([
                   25.heightBox,
                     nameWidget,
-                    
-                    
-                    15.heightBox,
+                    10.heightBox,
                     SocialAccounts(),
-                    
-                    20.heightBox,
-                    
+                    15.heightBox,
                     VxBox()
                         .color(Coolers.accentColor)
                         .size(40, 10)
@@ -94,7 +90,7 @@ class IntroductionWidget extends StatelessWidget {
         [
           "-Introduction".text.gray500.widest.sm.make(),
           15.heightBox,
-          "Date of Birth:\n 21-oct-2000\n Key Skills: \n@googledevexpert for flutter , firebase,dart & web\n Web developer, Data Scientist & Pyhton Geme Developer "
+          "Date of Birth:\n 21-oct-2000\n Key Skills: \n flutter Application Developer , firebase,dart & web\n Full Stack Web developer, Data Scientist & Pyhton Geme Developer "
               .text
               .white
               .xl
@@ -116,9 +112,9 @@ class PictureWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Transform(
-        alignment: Alignment.center,
+         
+        alignment:Alignment.center,
         transform: Matrix4.rotationY(pi),
-        
         child: Image.asset(
           '1638110713119-removebg.png',
           fit: BoxFit.cover,

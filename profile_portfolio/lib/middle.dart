@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
 
@@ -22,11 +24,11 @@ class MiddleScreen extends StatelessWidget {
             Expanded(
                 child: VxSwiper(
               items: [
-                ProjectWidget(title: "Frontiner Wallet"),
-                ProjectWidget(title: "Click2Chat"),
-                ProjectWidget(title: "Ready0"),
-                ProjectWidget(title: "Payoyo"),
-                ProjectWidget(title: "Quart Fashion"),
+                ProjectWidget(title: "Product Details"),
+                ProjectWidget(title: "Daibetes Predction"),
+                ProjectWidget(title: "Collage Intro"),
+                ProjectWidget(title: "Rock vs Mine"),
+                ProjectWidget(title: "Snake bite game"),
 
                 ],
                 height: 170,

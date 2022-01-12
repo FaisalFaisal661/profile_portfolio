@@ -1,4 +1,4 @@
-// ignore_for_file: import_of_legacy_library_into_null_safe
+// ignore_for_file: import_of_legacy_library_into_null_safe, prefer_const_constructors
 
 import 'package:flutter/material.dart';
 import 'package:profile_portfolio/coolers.dart';
@@ -47,7 +47,7 @@ class FooterScreen extends StatelessWidget {
       ).w(context.safePercentWidth * 70).scale150().p16(),
       ),
       50.heightBox,
-      const CustomAppBar(),
+       CustomAppBar(),
       10.heightBox,
       "Thanking You "
       .richText

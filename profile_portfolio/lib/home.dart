@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:profile_portfolio/coolers.dart';
 import 'package:velocity_x/velocity_x.dart';
